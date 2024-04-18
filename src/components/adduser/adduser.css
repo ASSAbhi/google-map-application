@@ -1,0 +1,40 @@
+.add-user-container {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-user-container h2 {
+  margin-bottom: 20px;
+  color: black; /* Change h2 color to black */
+}
+
+.add-user-container label {
+  display: block;
+  margin-bottom: 5px;
+  color: black; /* Change label color to black */
+}
+
+.add-user-container input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: white; /* Change background color to white */
+}
+
+.add-user-container button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.add-user-container button:hover {
+  background-color: #0056b3;
+}

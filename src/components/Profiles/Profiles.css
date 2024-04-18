@@ -1,0 +1,54 @@
+body {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  background-image: url('../../assets/4.jpg'); /* Replace 'background.jpg' with your desired background image */
+  background-size: cover; /* Cover the entire viewport with the background image */
+ 
+}
+
+.profiles-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px; /* Add gap between profile cards */
+  max-width: 800px; /* Set maximum width for the container */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.profile-card {
+  width: calc(33.33% - 20px); /* Set width to one-third of the container minus gap */
+  margin-bottom: 20px;
+  color: black;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  border: 1px solid #ccc; /* Add border to profile cards */
+  border-radius: 8px; /* Add border radius to profile cards */
+  overflow: hidden; /* Hide overflow content */
+}
+
+.profile-card:hover {
+  transform: translateY(-5px);
+}
+
+.profile-image img {
+  width: 100%; /* Make the image width 100% of its container */
+  height: auto; /* Let the height adjust automatically to maintain aspect ratio */
+  max-width: 100%; /* Ensure the image doesn't exceed the container width */
+  max-height: 100%; /* Ensure the image doesn't exceed the container height */
+}
+
+.profile-info {
+  padding: 10px;
+}
+
+.profile-info h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.profile-details {
+  background-color: #f6f6f6;
+  color: black;
+  padding: 10px;
+  font-size: 1rem;
+}
